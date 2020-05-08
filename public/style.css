@@ -1,0 +1,247 @@
+
+body{
+  background-color: rgb(248, 246, 246);
+}
+
+ .mainnav ,.int , .int2 , .call, .num, .wk,.num, .box, .center, .fox, .fox div, .kom, .lol, .pre, .use{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.subnav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* padding-right: 100px;
+  padding-left: 160px; */
+}
+.snav{
+  
+   padding-top: 30px;
+  
+}
+.snav span{
+  padding-right: 10px;
+  justify-content: space-around;
+}
+.pre{
+
+  background-color: rgb(41, 39, 39);
+
+}
+.pre p{
+color: white;
+}
+
+
+.mainnav {
+  padding-top: 9px;
+  background-color: #162bc7;
+  padding-left: 35px;
+  color: white;
+  font-size: 7px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+
+}
+.mainnav button{
+  color: rgb(76, 228, 21);
+}
+#home{
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+#home button{
+background-color: #162bc7 ;
+  border-radius: 10px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.textbar {
+    padding-top: 9px;
+    background-color: #162bc7;
+    padding-left: 35px;
+    color: white;
+    font-size: 7px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+.call img{
+ width: 1580px;
+}
+.int2{
+padding-left: 10%;
+padding-right: 10%;
+color: rgb(82, 79, 79);
+line-height: 30px;
+}
+.num{
+  background-color:#162bc7 ;
+}
+.num {
+  color: white;
+}
+.num h1{
+font-size: 40px;
+}
+.num font{
+  color:rgb(18, 216, 18);
+}
+
+.box div{
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: 40px;
+  height: 170px;
+  width: 310px;
+  box-shad.jpgow: 5px 5px 20px #d4d2d2; 
+  background-color: white;
+  margin-bottom:85px ;
+}
+.box{
+  padding-left: 160px;
+  padding-right: 160px;
+  background-color:rgb(245, 245, 245);
+  color: rgb(84, 84, 231);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+ 
+}
+
+.fox div{
+  margin-top: 40px;
+  height: 85px;
+  width: 310px;
+  box-shad.jpgow: 5px 5px 20px #d4d2d2; 
+  background-color: white;
+}
+.fox{
+  background-color:rgb(255, 255, 255);
+  color: rgb(84, 84, 231);
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+ 
+}
+.fox img{
+height: 35px;
+width:  35px;
+
+}
+
+.kom div{
+  margin-top: 40px;
+  height: 192px;
+  width: 290px;
+  box-shad.jpgow: 5px 5px 20px #d4d2d2; 
+  background-color: white;
+  margin-bottom:85px ;
+}
+.kom{
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color:rgb(255, 255, 255);
+  color: rgb(84, 84, 231);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+ 
+}
+.one{
+  text-align: left;
+  padding-left: 150px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.lol{
+  background-color: white;
+}
+.use{
+  text-align: center;
+}
+.use p{
+  padding-top: 80px;
+  padding-right: 2%;
+}
+
+.cat{
+ 
+}
+.cat p{
+  padding-right: 200px;
+}
+.bottom{
+  background-color:#162bc7 ;
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+.subnav img{
+padding-left: 0px;
+padding-right: 0px;
+
+
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
